@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.anytimeroadtrips</groupId>
     <artifactId>anytime-roadtrips</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>anytime-roadtrips</name>
-    <description>anytime-roadtrips</description>
+    <description>Car rental application</description>
 
     <properties>
         <java.version>17</java.version>
@@ -73,6 +73,7 @@
     </dependencies>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
