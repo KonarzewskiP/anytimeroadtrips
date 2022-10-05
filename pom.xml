@@ -18,6 +18,7 @@
         <java.version>17</java.version>
         <posgres.version>42.5.0</posgres.version>
         <lombok.version>1.18.20</lombok.version>
+        <springdoc.version>1.6.11</springdoc.version>
     </properties>
 
     <dependencies>
@@ -69,6 +70,16 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>${springdoc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-common</artifactId>
+            <version>${springdoc.version}</version>
         </dependency>
     </dependencies>
 
