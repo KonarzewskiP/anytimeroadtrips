@@ -7,7 +7,7 @@ services:
     depends_on:
       - postgresdb
     environment:
-      - SPRING_PROFILES_ACTIVE=local
+      - SPRING_PROFILES_ACTIVE=dev
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=password
     build:
